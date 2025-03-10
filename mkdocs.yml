@@ -1,0 +1,35 @@
+site_name: web_development
+site_url: https://ITMO_ICT_WebDevelopment_2024-2025/
+nav:
+  - Home: index.md
+  - 1 lab:
+    - Task 1: 'lab1/1.md'
+    - Task 2: 'lab1/2.md'
+    - Task 3: 'lab1/3.md'
+    - Task 4: 'lab1/4.md'
+    - Task 5: 'lab1/5.md'
+  - 2 lab:
+      - Task: 'lab2/task.md'
+      - View: 'lab2/view.md'
+      - Model: 'lab2/model.md'
+      - Form: 'lab2/form.md'
+  - 3 lab:
+      - pw1: 'lab3/pw1.md'
+      - pw2: 'lab3/pw3/pw.md'
+      - task: 'lab3/task2.md'
+  - 4 lab:
+      - Organization: 'lab4/org.md'
+      - InsuranceCases: 'lab4/InsuranceCases.md'
+      - Employee: 'lab4/Employee.md'
+      - CollectiveContracts: 'lab4/CollectiveContracts.md'
+      - Agents: 'lab4/Agents.md'
+
+
+
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - toc
